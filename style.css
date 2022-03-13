@@ -33,6 +33,27 @@ div {
     padding: 10px;
 }
 
+.google-img {
+    max-height: 92px;
+    position: relative;
+    height: 100%;
+    margin-top: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-shrink: 0;
+    box-sizing: border-box;
+}
+
+.images-span {
+    color: #4285f4;
+    font: 16px roboto, arial, sans-serif;
+    position: absolute;
+    left: 215px;
+    bottom: 0;
+    white-space: nowrap;
+}
+
 .form {
     display: flex;
     justify-content: center;
@@ -80,7 +101,7 @@ form {
     margin-top: -5px;
 }
 
-.form span {
+.form .loupe-img {
     margin-top: 3px;
     color: #9aa0a6;
     height: 20px;
